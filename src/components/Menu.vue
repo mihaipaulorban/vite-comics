@@ -75,13 +75,31 @@ export default {
   display: flex;
   text-transform: uppercase;
   .menu-link {
-    margin: 0 8px;
-    font-size: 14px;
+    margin: 0 15px;
+    font-size: 15px;
     font-weight: 500;
     cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s;
 
     &:hover {
       color: $primary;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -56px;
+      left: 0;
+      width: 0%;
+      height: 5px;
+      background-color: $primary;
+      transition: width 0.3s;
+    }
+
+    &:hover::after {
+      width: 100%;
     }
   }
 }
