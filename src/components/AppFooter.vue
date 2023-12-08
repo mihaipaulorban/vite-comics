@@ -1,9 +1,11 @@
 <script>
 import DownList from './DownList.vue';
+import SignUp from './SignUp.vue';
 export default {
   name: 'footer',
   components: {
     DownList,
+    SignUp,
   },
 };
 </script>
@@ -12,6 +14,7 @@ export default {
     <DownList />
     <img src="../../public/img/dc-logo-bg.png" alt="" />
   </div>
+  <SignUp />
 </template>
 <style scoped>
 .info-section {

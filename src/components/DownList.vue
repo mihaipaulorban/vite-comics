@@ -183,7 +183,7 @@ export default {
   display: flex;
 
   .list-col {
-    margin: 20px;
+    margin-right: 30px;
     text-align: start;
 
     h3 {
@@ -201,6 +201,11 @@ export default {
       li {
         color: gray;
         font-weight: 300;
+
+        &:hover {
+          cursor: pointer;
+          color: white;
+        }
       }
     }
   }
