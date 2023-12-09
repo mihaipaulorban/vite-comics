@@ -11,7 +11,7 @@ La lista l'ho generata con un v-for ma per ora non ho inserito il tag `<a>` pref
 
 Ho preferito evitare di usare bootstrap per prendere familiarita con l'SCSS
 
-## Aggiornamento 2
+### Aggiornamento 2
 
 Ho aggiunto i componenti per il footer.
 
@@ -24,3 +24,8 @@ Il sito attualmente ha hover su tutti i link dei social, sul pulsante follow, su
 In questo stato il sito si presenta cosí:
 
 ![Sito Versione 1](./public/img/sito-v1.jpeg)
+
+### Aggiornamento 3
+
+Ho aggiunto la sezione dello shop, generandola dinamicamente con v for, ci ho messo anche un effettino di hover sopra che fa diventare l'immagine e il testo neri, in caso non fosse necessaria la rimuoveró
+![Hover on Shop](./public/img/sito-shop-hover.png)

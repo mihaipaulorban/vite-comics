@@ -15,7 +15,7 @@ export default {
 main {
   background-color: $secondary;
   color: white;
-  padding: 50px;
-  font-size: 40px;
+  padding: 50px 300px;
+  font-size: 30px;
 }
 </style>

@@ -26,5 +26,6 @@ export default {
 
 img {
   width: 90px;
+  cursor: pointer;
 }
 </style>
