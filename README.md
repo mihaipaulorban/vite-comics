@@ -28,4 +28,5 @@ In questo stato il sito si presenta cosí:
 ### Aggiornamento 3
 
 Ho aggiunto la sezione dello shop, generandola dinamicamente con v for, ci ho messo anche un effettino di hover sopra che fa diventare l'immagine e il testo neri, in caso non fosse necessaria la rimuoveró
+
 ![Hover on Shop](./public/img/sito-shop-hover.png)
