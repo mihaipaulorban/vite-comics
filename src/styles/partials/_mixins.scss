@@ -1,0 +1,10 @@
+// Immagine di Background
+
+@mixin bgImg($img: null, $repeat: null, $position: null, $size: null) {
+  @if $img != null {
+    background-image: url($img);
+    background-repeat: $repeat;
+    background-position: $position;
+    background-size: $size;
+  }
+}
