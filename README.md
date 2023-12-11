@@ -30,3 +30,15 @@ In questo stato il sito si presenta cosí:
 Ho aggiunto la sezione dello shop, generandola dinamicamente con v for, ci ho messo anche un effettino di hover sopra che fa diventare l'immagine e il testo neri, in caso non fosse necessaria la rimuoveró
 
 ![Hover on Shop](./public/img/sito-shop-hover.png)
+
+## Aggiornamento 4
+
+Per aggiungere dinamicamentye la sezione dei fumetti:
+
+-Ho utilizzato v-for per iterare sull'array comics e generare dinamicamente un contenitore per ogni fumetto.
+
+-Ho impostato l'attributo key nel ciclo v-for su comic.series per assicurarmi che ogni elemento sia unico e Vue.js possa gestire il DOM in modo efficiente.
+
+-Ho udsto calc(100% / 6) per mettere le copertine dei fumetti in riga, dato che ne voglio 6 per riga.
+
+-Ho aggiunto align-items: center; e justify-content: center; per centrare i contenitori dei fumetti.

@@ -112,14 +112,14 @@ export default {
 
 .comics-section {
   padding: 60px;
-  background-color: black;
+  background-color: $secondary;
   display: flex;
   justify-content: center;
 
   .comics-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 2000px;
+    max-width: 1500px;
     justify-content: center;
 
     .comic {
@@ -146,7 +146,7 @@ export default {
       .comic-title {
         margin-top: 30px;
         color: white;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-transform: uppercase;
       }
     }
