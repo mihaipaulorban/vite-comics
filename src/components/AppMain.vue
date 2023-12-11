@@ -10,6 +10,7 @@ export default {
 <template>
   <main>
     <div class="main-jumbo"></div>
+    <div class="series-banner">CURRENT SERIES</div>
     <MainProducts />
   </main>
 </template>
@@ -28,9 +29,17 @@ main {
       'center',
       'cover'
     );
-    background-size: cover;
-
     height: 400px;
+  }
+
+  .series-banner {
+    background-color: $primary;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
 }
 </style>
